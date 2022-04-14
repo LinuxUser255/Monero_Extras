@@ -5,5 +5,6 @@
 - XMR to USD conversion script 
 - Send SMS texts alerting to price changes
 - More to come
+- Pull requests, collab and recomendations welcome
 
 
