@@ -4,5 +4,6 @@
 ### This is a repository containig various Monero resources. 
 - XMR to USD conversion script 
 - Send SMS texts alerting to price changes
+- More to come
 
 
