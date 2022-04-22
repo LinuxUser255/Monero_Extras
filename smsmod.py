@@ -9,13 +9,14 @@ import xmrlert
 import urllib
 import urllib2
 
-# Under construction
-
+# Underconstrustion
 def SMS():
+  """
+  Send SMS texts alerting to price changes
+  """
   pass
 
     
-
 
 
 sms()
