@@ -5,6 +5,7 @@
 - XMR to USD conversion script 
 - Feature to be added: Send SMS texts alerting to price changes
 - See the ReStructuredText (RST) in xmrlert.py, for more details
+- smsmod.py is just an outline for now.
 - Pull requests, collab and recomendations welcome
 ---
 
