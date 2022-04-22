@@ -9,6 +9,13 @@
 - Pull requests, collab and recomendations welcome
 ---
 
+`git clone https://github.com/LinuxUser255/Monero_Extras.git`
+ ``` 
+ cd Monero_Extras
+ chmod +x xmrlert.py
+ ./xmrlert.py
+ ```
+
 Terminal greeting
 ---
 
