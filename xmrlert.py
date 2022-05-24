@@ -55,5 +55,5 @@ def xmr_price(url) -> float:
     pprint.pprint(json.loads(response.text)["data"]["328"]["quote"]["USD"]["price"])
 
 
-if __name__=="__main"":
+if __name__=="__main__":
     xmr_price(url)
