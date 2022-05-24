@@ -27,13 +27,10 @@ server URL: https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest
 Read the docs here: https://coinmarketcap.com/api/documentation/v1/#section/Endpoint-Overview
 
 """
-
-
 from requests import Request, Session
 import json
 import pprint 
 import os
-
 
 url = "https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/latest"
 
@@ -52,12 +49,11 @@ def xmr_price(url) -> float:
 
     session = Session()
     session.headers.update(headers)
-
-
     # Filter output for price output only. 
     # This will need editing if you want to follow a different coin.
     response = session.get(url, params=parameters)
     pprint.pprint(json.loads(response.text)["data"]["328"]["quote"]["USD"]["price"])
 
 
-xmr_price(url)
+if __name__=="__main"":
+    xmr_price(url)
