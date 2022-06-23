@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+# Monero_Extras
+# by Chris Bingham
+# Liscense: GNU GPLv3
 """
 XMR price alerts using CoinMarketCap's API.
 
