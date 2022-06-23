@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-
+# Monero_Extras
+# By Chris Bingham
+# Liscense: GNU GPLv3
 import os
 import time
 import requests
